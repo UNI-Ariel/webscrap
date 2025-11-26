@@ -1,0 +1,6 @@
+# Entorno virtual de pyton
+.venv/
+
+# Configuración VS Code
+.vscode/
+
