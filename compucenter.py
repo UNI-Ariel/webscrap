@@ -7,7 +7,7 @@ page = requests.get("http://localhost:8080/Almacenamiento%20_%20CompuCenter%20Bo
 soup = BeautifulSoup(page, "lxml")
 
 # Mostrar el contenido
-soup
+str(soup)[:500]
 
 # %%
 # Realizar la exploración de la pagina y armar estructura
@@ -15,7 +15,7 @@ soup
 ventas = soup.find_all("article")
 
 # Mostrar las ventas
-ventas
+str(ventas)[:500]
 
 # %%
 # Nombres y descripción de los productos en h2
