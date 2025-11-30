@@ -1,0 +1,2 @@
+define(['jquery'],function($){'use strict';return{startLoader:function(){if(!$('#ln_product_overlay').length){var lnOverlay=$('#ln_overlay').html(),lnProductOverlay=$('<div></div>',{id:'ln_product_overlay'}).css('display','none').css('text-align','center').html(lnOverlay);$('#layer-product-list').append(lnProductOverlay);}
+$('#ln_product_overlay').show();},stopLoader:function(){$('#ln_product_overlay').hide();}};});

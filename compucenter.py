@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # Obtener el contenido de la pagina
-page = requests.get("http://localhost:8080/Almacenamiento%20_%20CompuCenter%20Bolivia.html").text
+page = requests.get("http://localhost:8080/html/Almacenamiento%20_%20CompuCenter%20Bolivia.html").text
 soup = BeautifulSoup(page, "lxml")
 
 # Mostrar el contenido
